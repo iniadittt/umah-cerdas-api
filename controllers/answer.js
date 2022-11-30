@@ -1,4 +1,4 @@
-import Answer from '../models/Answer.js'
+import Answer from '../models/awnswer.js'
 import Kuisioner from '../models/kuisioner.js'
 
 
