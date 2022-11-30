@@ -7,7 +7,8 @@ import { getAnswers, postAnswer, deleteAnswers } from '../controllers/answer.js'
 const router = express.Router()
 
 
-// METHOD GET
+router.get('/', (req, res) => res.send('Hello World'))
+    // METHOD GET
 
 router.get('/products', getProducts)
 router.get('/product/:id', getProduct)
